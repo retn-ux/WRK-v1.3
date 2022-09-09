@@ -129,6 +129,13 @@
   <ItemGroup>
     <ClCompile Include="WRK_win10.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basetypes.h" />
+    <ClInclude Include="diskdefs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="newsysbg.asm" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
